@@ -1,4 +1,4 @@
-n = int(input())
+n = int(input('Введите число: '))
 if n <= 1:
     n = 3
 
