@@ -1,5 +1,5 @@
-sq = int(input('Введите сторону квадрата: '))
+sq = float(input('Введите сторону квадрата: '))
 
 def square(sq):
-        print(sq*sq)
+        print(round(sq*sq))
 square(sq)
