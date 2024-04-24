@@ -1,3 +1,7 @@
 lst = [11, 5, 8, 32, 15, 3, 20, 132, 21, 4, 555, 9, 20]
+sum_lst = 0
 
-print(sum(lst))
+for num in lst:
+    sum_lst += num
+
+print("Сумма всех элементов списка:", sum_lst)
