@@ -9,7 +9,7 @@ driver.get('http://the-internet.herokuapp.com/add_remove_elements/')
 for i in range(5):
     addElButton = driver.find_element(By.CSS_SELECTOR, '[onclick="addElement()"]').click()
 
-numDelButton = driver.find_elements(By.CSS_SELECTOR, '[onclick="deleteElement()"]')
+numDelButton = driver.find_elements(By.CSS_SELECTOR, "[class='added-manually']")
 print(len(numDelButton))
 
 sleep(10)
