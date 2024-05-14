@@ -4,8 +4,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
-driver.implicitly_wait(20)
-
 driver.maximize_window()
 driver.get('http://uitestingplayground.com/ajax')
 
